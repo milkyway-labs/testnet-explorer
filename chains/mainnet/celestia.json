@@ -1,0 +1,20 @@
+{
+  "chain_name": "celestia devnet",
+  "registry_name": "celestia",
+  "api": [{ "provider": "milkyway", "address": "http://localhost:11317" }],
+  "rpc": [{ "provider": "milkyway", "address": "http://localhost:36657" }],
+  "sdk_version": "0.45.1",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "celestia",
+  "logo": "/logos/celestia.jpg",
+  "assets": [
+    {
+      "base": "utia",
+      "symbol": "TIA",
+      "exponent": "6",
+      "coingecko_id": "celestia",
+      "logo": "/logos/celestia.jpg"
+    }
+  ]
+}
